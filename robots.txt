@@ -1,0 +1,8 @@
+# https://hackathon.datagenaitech.com/robots.txt
+# Public pages (landing, register, FAQ, privacy, terms) may be crawled. The signed-in area and the
+# post-registration page are for participants only, so they are kept out of search results.
+User-agent: *
+Allow: /
+Disallow: /dashboard
+Disallow: /login
+Disallow: /register/success
